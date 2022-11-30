@@ -222,9 +222,14 @@ nav {
 }
 
 .zoom img {
+  margin: 5px;
     width: auto;
     transition: transform 1s ease-in-out;
     transform-origin: center center;
+  }
+
+  .zoom #spe {
+    margin-top: 31px;
   }
   
   .zoom:hover img {
